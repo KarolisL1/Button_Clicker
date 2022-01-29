@@ -9,6 +9,9 @@
     min-height: 200px;
     /* background-color: aqua; */
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 header {
@@ -24,8 +27,8 @@ main {
     min-height: 100px;
     /* background-color: yellow; */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     gap: 1.5rem;
 }
 
@@ -48,8 +51,10 @@ main {
 
 .right {
     background-color: brown;
-    min-height: 100px;
+    min-height: 50px;
     flex: 1;
+    /* display: flex;
+    align-items: center; */
 }
 
 .top {
@@ -66,16 +71,66 @@ main {
     background-color: purple;
     min-height: 50px;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .topleft {
     flex: 1;
     list-style-type: none;
-    border: 1px solid black;
-    /* padding: 10px; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+    /* margin: 0 auto; */
 }
 
 .topright {
     flex: 2;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottomleft {
+    flex: 1;
+    list-style-type: none;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+    /* margin: 0 auto; */
+}
+
+.bottomright {
+    flex: 2;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.asideright {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1.5rem;
+}
+
+.adddefinition {
+    background-color: green;
+    color: black;
+    min-width: 25px;
+    padding: 5px 10px;
+}
+
+.likesb {
+    color: black;
+    background-color: yellow;
 }
